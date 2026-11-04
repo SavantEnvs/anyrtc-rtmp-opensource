@@ -1,0 +1,9 @@
+project: savantenvs/anyrtc-rtmp-opensource
+target: fuzz_flv_parser
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_flv_parser/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_flv_parser
+    libfuzzer: true
+    timeout: 60

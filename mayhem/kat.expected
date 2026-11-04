@@ -1,0 +1,9 @@
+amf consumed=80 command=_result txn=1 code=NetConnection.Connect.Success clientid=7
+flv codec=257 bytes=4 pts=40 dts=40 flags=0
+flv result=0
+faad init=0 samplerate=44100 channels=2
+faad frame=0 size=338 consumed=338 samples=0 channels=2 error=0 audible=0
+faad frame=1 size=408 consumed=408 samples=2048 channels=2 error=0 audible=1
+faad frame=2 size=333 consumed=333 samples=2048 channels=2 error=0 audible=1
+rtmp audio bytes=7 ts=0 first=0xaf
+rtmp start=0 handshake=0 input=0

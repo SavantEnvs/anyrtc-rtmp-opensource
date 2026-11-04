@@ -1,0 +1,9 @@
+project: savantenvs/anyrtc-rtmp-opensource
+target: fuzz_faad
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_faad/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_faad
+    libfuzzer: true
+    timeout: 60
